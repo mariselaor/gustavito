@@ -1,7 +1,7 @@
 <template>
   <div class="p-6">
     <h1 class="text-3xl font-bold mb-4">Bienvenid@ {{ username }}</h1>
-    <p class="text-lg">Holis, estamos en el home.vue</p>
+    <p class="text-lg">Holis {{ username }} estamos en el home.vue</p>
 
     <button @click="logout" class="mt-4 bg-red-500 text-white p-2 rounded hover:bg-red-600 transition">
       Cerrar Sesión
